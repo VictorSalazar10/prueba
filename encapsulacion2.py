@@ -13,4 +13,5 @@ print(x.publico)
 x.publico='cambie la publica'
 print(x.publico)
 
-x.setPrivado()
+x.setPrivado('hola ')
+print(x.getPrivado())
