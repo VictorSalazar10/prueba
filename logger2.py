@@ -2,8 +2,8 @@ def log(debug  =False):
     def _log(f): #decorador de nombre _log
         def wrap(a,b): #funcion que extiende las fucionanildades de sums=F
             if debug:
-            print('valor a :',a)
-            print('valor b :',b)
+            print('valor ejemplo a :',a)
+            print('valor ejemplo b :',b)
         return f(a,b)
     return wrap
 @log(debug=True)
