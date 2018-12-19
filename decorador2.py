@@ -17,7 +17,7 @@ def decor2(f): #como parametro se pasa una funcion que va en el parametro F
 @decor
 def print_text():
     print('hola mundo')
-    a=5
+
 
 
 
